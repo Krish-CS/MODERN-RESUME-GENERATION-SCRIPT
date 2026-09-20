@@ -1,0 +1,39 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Local candidate-specific resumes, scripts, and temporary files
+*JS_Resume*
+*Java_FullStack_Resume*
+*Automation_Resume*
+*Resumes_and_Scripts*
+*.zip
+*.txt
+!requirements.txt
+generate_aravind*.py
+generate_aron*.py
+generate_ashwin*.py
+generate_dona*.py
+generate_haripriya*.py
+generate_johan*.py
+generate_kishore*.py
+generate_krish*.py
+generate_sakthivel*.py
+generate_resume.py
+fix_all_js_resumes.py
+update_education_alignment.py
+test_*
+Merged_*
+RESUMES_TO_GENERATE/
+graphify-out/
+icons_aligned/
+icons_padded/
+README_TEMPLATE.md
+
+# Environment & IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
