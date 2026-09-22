@@ -511,14 +511,14 @@ def create_resume(data, output_path):
     set_run_font(r_s1, size_pt=8.8)
 
     # Phone
-    add_icon(p_contact, 'phone', size_pt=8.0, offset_val="-2")
+    add_icon(p_contact, 'phone', size_pt=8.0, offset_val="-1")
     r_ph = p_contact.add_run(f" {hdr.get('phone', '+1 (555) 012-3456')}")
     set_run_font(r_ph, size_pt=8.8)
     r_s2 = p_contact.add_run(' | ')
     set_run_font(r_s2, size_pt=8.8)
 
     # Email
-    add_icon(p_contact, 'mail', size_pt=8.0, offset_val="-2")
+    add_icon(p_contact, 'mail', size_pt=8.0, offset_val="-3")
     r_sp1 = p_contact.add_run(' ')
     set_run_font(r_sp1, size_pt=8.8)
     email = hdr.get("email", "your.email@example.com")
